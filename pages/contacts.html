@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<!-- Its Metadata about site. Start-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap-->
+    <link href="/style.css" rel="stylesheet">
+    <title>Contacts</title>
+</head>
+
+
+<body>
+    <!--Header. iFrame Menu-->
+    <div>
+        <iframe class="header-iframe" src="../menu.html"></iframe>
+    </div>
+
+    <!-- Form-->
+    <div class="content">
+        <div class="main-contacts">
+            <h2>Як зв'язатися з нами?</h2>
+            <p>Якщо у вас виникли запитання, пропозиції або ви потребуєте допомоги, ми завжди раді вам допомогти. Ви можете зв’язатися з нами за допомогою наступної форми.</p>
+            <form class="contacts-form">
+                <h4>Форма зв'язку з нами</h4>
+                <div class="first-form-container">
+                    <fieldset class="form-container-fieldset">
+                        <label for="first-name"><b>Ім'я</b>:</label>
+                        <input type="text" id="first-name" name="first-name">
+                        <label for="last-name"><b>Прізвище</b>:</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </fieldset>
+
+                    <fieldset class="form-container-fieldset-two">
+                        <label for="email"><b>Email</b>:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="phone"><b>Телефон</b>:</label>
+                        <input type="text" id="phone" name="phone">
+                    </fieldset>
+                </div>
+                <div class="second-form-container">
+                    <label for="message"><b>Ваше повідомлення</b>:</label>
+                    <textarea id="message" name="message" rows="4" cols="50">Введіть...</textarea>
+                    
+                    <label for="contact"><b>Як з вами зв'язатися</b>:</label>
+                    <select id="contact" name="contact">
+                        <option value="phone">По телефону</option>
+                        <option value="letter">По пошті</option>
+                    </select>
+                </div>
+                <div class="submit-input">
+                    <input type="submit" value="НАДІСЛАТИ">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <iframe class="footer-iframe" src="../footer.html"></iframe>
+</body>
+</html>

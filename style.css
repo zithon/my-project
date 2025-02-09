@@ -1,0 +1,427 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Cantarell", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;               /* Removing outer margins */
+    display: flex;            /* Making a flex container */
+    flex-direction: column;   /* Arranging elements vertically */
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;                  /* Content takes up all available space */
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue; 
+}
+
+.button-a {
+    background-color: black;
+    text-decoration: none;
+    padding: 15px 25px;
+    color: white; 
+    border-radius: 40px;
+}
+
+.button-a:hover {
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+/*--Header--*/
+
+header {
+    font-size: 15vh;
+    color: white;
+    background-color: black;
+}
+/* Container for the entire header */
+.header-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px; 
+}
+
+.header-iframe {
+    width: 100%;
+    height: 70px;
+    border: none;
+}
+
+/* Navigation list */
+.header-list {
+    list-style-type: none;
+    display: flex; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation items */
+.header-elements {
+    margin: 0 15px;
+}
+
+.a-header {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.a-header:hover {
+    color: gray;
+}
+
+/* Logo */
+.logo {
+    font-size: 2.2rem;
+    color: white;
+    margin-left: auto;
+    white-space: nowrap;
+    padding-bottom: 5px;
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 17vh;
+    color: white;
+    background-color: black;
+}
+
+.footer-iframe {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 30px;
+}
+
+
+/* Main-index */
+
+.main-index {
+    font-size: 2.42rem;
+    display: flex;
+    padding: 80px;
+    padding-top: 100px;
+}
+
+.content-index {
+    padding: 0 25px 0;
+    max-width: 110vw;
+    font-size: 2.8rem;
+    display: inline;
+    
+}
+
+.content-index h1 {
+    padding-bottom: 13vh;
+}
+
+
+.p-index {
+    max-width: 500px;
+    padding-right: 100px;
+    padding-left: 60px;
+}
+
+/* contacts */
+fieldset{
+    padding:0;
+    margin:0;
+    border:0
+}
+
+.main-contacts {
+    padding: 30px;
+}
+
+.main-contacts h2{
+    text-align: center;
+    font-size: 4.5vw;
+}
+
+.main-contacts p{
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 30px;
+}
+
+.contacts-form {
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid black;
+    border-radius: 45px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: center;
+    font-size: 2vw;
+}
+
+.first-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.form-container-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.form-container-fieldset-two {
+    display: flex; 
+    flex-direction: column;  
+    padding-left: 70px;
+    gap: 17px
+}
+
+.first-form-container input{
+    border: 1px solid black;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.second-form-container {
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 15px; 
+}
+
+.second-form-container textarea {
+    margin: 25px;
+    justify-content: center;
+    width: 45vw;
+    height: 23vh;
+    border-radius: 14px;
+    font-size: 1.6rem;
+    resize: none;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.second-form-container select{
+    width: 24vw;
+    height: 5vh;
+    font-size: 1.5rem;
+    margin: 13px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.submit-input {
+    display: flex; 
+    justify-content: center; 
+    padding-top: 30px;
+
+}
+
+.submit-input input {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 24vw;
+    height: 8vh;
+    border-radius: 50px;
+    font-size: 2.4rem;
+}
+
+.submit-input input:hover {
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+/* About*/
+
+.container-about {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.main-about {
+    font-size: 2.3rem;
+    padding: 40px;
+}
+
+
+.content-container {
+    padding-top: 40px;
+    display: flex;
+    font-size: 2rem;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.content-container p {
+    width: 40vw;
+}
+
+.content-container img {
+    width: 700px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.divider {
+    width: 90vw;
+    height: 2px; /* Line thickness */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 100%); /* Smooth gradient from black to transparent */
+    margin: 20px 0; /* Padding on top and bottom */
+    transition: background 0.5s ease-in-out; /* Smooth transition */
+}
+
+.divider-rotate {
+    margin-left: auto;
+    width: 90vw;
+    height: 2px; /* Line thickness */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 100%); /* Smooth gradient from black to transparent */
+    margin: 20px 0; /* Padding on top and bottom */
+    transition: background 0.5s ease-in-out; /* Smooth transition */
+    transform: rotate(180deg);
+}
+
+.divider-normal {
+    width: 90vw;
+    height: 2px; /* Line thickness */
+    background: rgba(0, 0, 0, 0.3); /* Smooth gradient from black to transparent */
+    margin: 20px 0; /* Padding on top and bottom */
+}
+
+.main-about ol {
+    padding-left: 30px;
+    width: 40vw;
+}
+
+.main-about li {
+    padding-top: 15px;
+}
+
+.about-a-button {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-about a {
+    background-color: black;
+    text-decoration: none;
+    padding: 25px 35px;
+    color: white; 
+    border-radius: 50px;
+}
+
+.main-about a:hover {
+    background-color: rgb(133, 133, 133);
+    color: black;
+}
+
+/* Articles */
+
+.container-articles {
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.menu-articles * {
+    gap: 20px;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.menu-articles h1 {
+    font-size: 2.3rem;
+}
+
+.menu-articles li {
+    font-size: 1.1rem;
+}
+
+.articles-button-a {
+    background-color: black;
+}
+
+.articles-content-container {
+    margin-right: 30px;
+    margin-top: 40px;
+    padding: 2.4vw;
+    display: block;
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.articles-content-container h3 {
+    font-size: 2.1rem;
+    padding-bottom: 20px;
+}
+
+/* gallery */
+
+figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Aligns text to the center */
+    margin: 20px; /* Adds padding around the block */
+}
+figcaption {
+    margin: 20px;
+    font-size: 1.2vw;
+}
+
+.main-gallery h1{
+    text-align: center;
+    font-size: 3.2vw;
+}
+
+.main-gallery p{
+    text-align: center;
+    font-size: 1.8vw;
+    padding-top: 30px;
+}
+
+.pic {
+    margin: 30px;
+    padding-top: 40px; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.pic * {
+    border-radius: 20px;
+}
